@@ -54,7 +54,7 @@ def send_email_alert():
     server.sendmail(from_email_address, to_email_address, msg)
     server.quit()
     now = datetime.datetime.now()
-    print(now.strftime("[%Y-%m-%d %H:%M:%S]") + 'Email has been sent!!!')
+    print(now.strftime("[%Y-%m-%d %H:%M:%S]") + ' Email has been sent!!!')
 
 while True:
     status = check_ping()
