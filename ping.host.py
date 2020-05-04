@@ -1,3 +1,7 @@
+#pings a host every 60 seconds to see if it's online
+#if host goes down (Request Timed out) it will send you a email
+#smtp server manually set for GMAIL, change as necessary
+
 import os
 import smtplib
 import time
